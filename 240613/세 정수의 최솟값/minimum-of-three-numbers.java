@@ -5,9 +5,9 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        if(b<c && b<a)
+        if(b<=c && b<=a)
         System.out.print(b);
-        else if(a<c && a<b)
+        else if(a<=c && a<=b)
         System.out.print(a);
         else
         System.out.print(c);
