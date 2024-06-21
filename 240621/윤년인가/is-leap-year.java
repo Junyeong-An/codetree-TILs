@@ -7,7 +7,7 @@ public class Main {
             if(a>=100 && a%100==0 && a % 400 == 0)
             System.out.print("true");
             else
-            System.out.print("true");
+            System.out.print("false");
         else
         System.out.print("false");
     }
