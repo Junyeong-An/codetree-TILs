@@ -5,6 +5,6 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         double c = (double)a/b;
-        System.out.printf("%21.20f",c);
+        System.out.printf("%.20f",c);
     }
 }
