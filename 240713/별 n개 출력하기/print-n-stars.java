@@ -1,10 +1,12 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        int i = 10;
-        while(i<=26){
-            System.out.print(i);
-            System.out.print(" ");
-            i+=2;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int i = 1;
+        while(i<=5){
+            System.out.println("*");
+            i++;
         }
     }
 }
