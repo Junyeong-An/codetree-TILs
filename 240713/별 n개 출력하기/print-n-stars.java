@@ -5,8 +5,9 @@ public class Main {
         int n = sc.nextInt();
         int i = 1;
         while(i<=5){
-            System.out.println("*");
+            System.out.print("*");
             i++;
+            System.out.println("");
         }
     }
 }
