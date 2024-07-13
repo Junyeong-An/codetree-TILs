@@ -1,18 +1,22 @@
 import java.util.Scanner;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
         
-        BigDecimal result = new BigDecimal((double) a / b);
-        result = result.setScale(21, RoundingMode.FLOOR);
+        int a, b;
+
+        a = sc.nextInt();
+        b = sc.nextInt();
+
+        System.out.print(a / b + ".");
         
-        System.out.println(result.toPlainString());
-        
-        sc.close();
+        a %= b;
+        for(int i = 0; i < 20; i++) {
+            a *= 10;
+            System.out.print(a / b);
+            
+            a %= b;
+        }
     }
 }
