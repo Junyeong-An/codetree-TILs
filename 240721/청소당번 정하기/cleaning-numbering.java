@@ -6,7 +6,7 @@ public class Main {
         int classroom = 0;
         int corridor = 0;
         int restroom = 0;
-        for(int i=1;i<n;i++){
+        for(int i=1;i<=n;i++){
             if(i%12==0){
                 restroom++;
             }
