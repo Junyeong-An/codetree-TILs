@@ -5,8 +5,9 @@ public class Main {
         int n = sc.nextInt();
         int sum = 0;
         for(int i=0;i<n;i++){
-            if(i%2==1 && i%3==0){
-                sum+=i;
+            int x = sc.nextInt();
+            if(x%2==1 && x%3==0){
+                sum+=x;
             }
         }
         System.out.print(sum);
