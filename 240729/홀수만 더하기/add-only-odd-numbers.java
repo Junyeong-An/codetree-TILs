@@ -6,7 +6,7 @@ public class Main {
         int sum = 0;
         for(int i=0;i<n;i++){
             if(n%2==1 && n%3==0){
-                sum++;
+                sum+=n;
             }
         }
         System.out.print(sum);
