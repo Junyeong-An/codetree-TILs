@@ -10,9 +10,8 @@ public class Main {
             if(i%c==0){
                 x = true;
             }
-
         }
-        if(x=true){
+        if(x == true){
             System.out.println("YES");
         }
         else{
