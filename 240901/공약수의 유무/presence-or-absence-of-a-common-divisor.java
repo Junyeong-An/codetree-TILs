@@ -12,10 +12,10 @@ public class Main {
             }
         }
         if(x==true){
-            System.out.println("1");
+            System.out.println(1);
         }
         else{
-            System.out.println("0");
+            System.out.println(0);
         }
         sc.close();
     }
